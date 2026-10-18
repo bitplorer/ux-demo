@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@source "../../**/*.py";
+
+@layer base {
+  html { background: #f3efe6; color: #161513; }
+  body { margin: 0; font-family: "Source Sans 3", system-ui, sans-serif; }
+}
+
+@layer components {
+  .font-display { font-family: "Fraunces", Georgia, serif; }
+  .swatch-kitchen { background: linear-gradient(135deg, #d9c7a7, #b08d5b); }
+  .swatch-home { background: linear-gradient(135deg, #cfd6cf, #7f8f86); }
+  .swatch-bath { background: linear-gradient(135deg, #e8ddd0, #c7a998); }
+}
